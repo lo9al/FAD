@@ -1,0 +1,357 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{3A9C1EEE-E076-4C08-B113-887A9C58F7C6}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>my</RootNamespace>
+    <AssemblyName>my</AssemblyName>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="AdvancedDataGridView, Version=0.1.0.10, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\AdvancedDataGridView.dll</HintPath>
+    </Reference>
+    <Reference Include="Bunifu_UI_v1.5.3">
+      <HintPath>.\Bunifu_UI_v1.5.3.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.CodeParser.v20.2, Version=20.2.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.Data.Desktop.v20.2, Version=20.2.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Data.v20.2, Version=20.2.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.DataAccess.v20.2, Version=20.2.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.Images.v20.2, Version=20.2.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Printing.v20.2.Core, Version=20.2.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Utils.v20.2, Version=20.2.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Xpo.v20.2, Version=20.2.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.XtraBars.v20.2, Version=20.2.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraEditors.v20.2, Version=20.2.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraGrid.v20.2, Version=20.2.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraLayout.v20.2, Version=20.2.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.XtraNavBar.v20.2, Version=20.2.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraPrinting.v20.2, Version=20.2.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="Microsoft.VisualBasic" />
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Management" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="formss\frm_control.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="formss\frm_control.Designer.cs">
+      <DependentUpon>frm_control.cs</DependentUpon>
+    </Compile>
+    <Compile Include="formss\frm_acount.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="formss\frm_acount.Designer.cs">
+      <DependentUpon>frm_acount.cs</DependentUpon>
+    </Compile>
+    <Compile Include="formss\frm_exchange.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="formss\frm_exchange.Designer.cs">
+      <DependentUpon>frm_exchange.cs</DependentUpon>
+    </Compile>
+    <Compile Include="formss\frm_main1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="formss\frm_main1.Designer.cs">
+      <DependentUpon>frm_main1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="formss\frm_setting_server.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="formss\frm_setting_server.Designer.cs">
+      <DependentUpon>frm_setting_server.cs</DependentUpon>
+    </Compile>
+    <Compile Include="formss\frm_User.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="formss\frm_User.Designer.cs">
+      <DependentUpon>frm_User.cs</DependentUpon>
+    </Compile>
+    <Compile Include="formss\frm_User_Add.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="formss\frm_User_Add.Designer.cs">
+      <DependentUpon>frm_User_Add.cs</DependentUpon>
+    </Compile>
+    <Compile Include="formss\frm_User_Edit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="formss\frm_User_Edit.Designer.cs">
+      <DependentUpon>frm_User_Edit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="formss\UserControl1.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="formss\UserControl1.Designer.cs">
+      <DependentUpon>UserControl1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="formss\frm_Add_Constrain.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="formss\frm_Add_Constrain.Designer.cs">
+      <DependentUpon>frm_Add_Constrain.cs</DependentUpon>
+    </Compile>
+    <Compile Include="mastar.cs" />
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="formss\frm_report.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="formss\frm_report.Designer.cs">
+      <DependentUpon>frm_report.cs</DependentUpon>
+    </Compile>
+    <Compile Include="formss\frm_main_form.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="formss\frm_main_form.Designer.cs">
+      <DependentUpon>frm_main_form.cs</DependentUpon>
+    </Compile>
+    <Compile Include="formss\frm_login.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="formss\frm_login.Designer.cs">
+      <DependentUpon>frm_login.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Settings.cs" />
+    <EmbeddedResource Include="formss\frm_Add_Constrain.resx">
+      <DependentUpon>frm_Add_Constrain.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="formss\frm_control.resx">
+      <DependentUpon>frm_control.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="formss\frm_acount.resx">
+      <DependentUpon>frm_acount.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="formss\frm_exchange.resx">
+      <DependentUpon>frm_exchange.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="formss\frm_main1.resx">
+      <DependentUpon>frm_main1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="formss\frm_setting_server.resx">
+      <DependentUpon>frm_setting_server.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="formss\frm_report.resx">
+      <DependentUpon>frm_report.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="formss\frm_login.resx">
+      <DependentUpon>frm_login.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="formss\frm_main_form.resx">
+      <DependentUpon>frm_main_form.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="formss\frm_User.resx">
+      <DependentUpon>frm_User.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="formss\frm_User_Add.resx">
+      <DependentUpon>frm_User_Add.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="formss\frm_User_Edit.resx">
+      <DependentUpon>frm_User_Edit.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="formss\UserControl1.resx">
+      <DependentUpon>UserControl1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\licenses.licx" />
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <None Include="app.config">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\[001790].png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\[001711].jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\[001].png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\[001341].png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\[001348].png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\[001715].png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\[001716].png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\[001840].png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\[001841].png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\[001893].png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\[001897].png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\[002151].png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\[002205].png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\[002801].png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\close_icon1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\close_icon2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\enter.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\eye.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\hide 2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\hide.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\IMG_1759.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\IMG_1760.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\IMG_1765.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\logout 2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\show.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\user.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\user1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Resources.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\changeview.svg" />
+    <None Include="Resources\bo_sale_item.svg" />
+    <None Include="Resources\delete.svg" />
+    <None Include="Resources\new.svg" />
+    <None Include="Resources\Icon1.svg" />
+    <None Include="Resources\Icon.svg" />
+    <None Include="Resources\categories.png" />
+    <None Include="Resources\document_comment_below.png" />
+    <None Include="Resources\document_check_compatibility.png" />
+    <None Include="image\[00f1615].png" />
+    <None Include="Resources\[001615].png" />
+    <None Include="Resources\billiard_marker.png" />
+    <None Include="Resources\[001616].png" />
+    <None Include="image\111.png" />
+    <Content Include="image\close_icon1.png" />
+    <Content Include="image\close_icon2.png" />
+    <Content Include="image\enter.png" />
+    <Content Include="image\eye.png" />
+    <Content Include="image\hide 2.png" />
+    <Content Include="image\hide.png" />
+    <Content Include="image\IMG_1759.PNG" />
+    <Content Include="image\IMG_1760.PNG" />
+    <Content Include="image\IMG_1765.PNG" />
+    <Content Include="image\logout 2.png" />
+    <Content Include="image\Resources.bmp" />
+    <Content Include="image\show.png" />
+    <Content Include="image\user.png" />
+    <Content Include="image\user1.png" />
+    <Content Include="image\[001341].png" />
+    <Content Include="image\[001348].png" />
+    <None Include="image\[001616].png" />
+    <Content Include="image\[001711].jpg" />
+    <Content Include="image\[001715].png" />
+    <Content Include="image\[001716].png" />
+    <None Include="image\[0017191].jpg" />
+    <Content Include="image\[001790].png" />
+    <Content Include="image\[001840].png" />
+    <Content Include="image\[001841].png" />
+    <Content Include="image\[001893].png" />
+    <Content Include="image\[001897].png" />
+    <Content Include="image\[001987].ico" />
+    <Content Include="image\[001].png" />
+    <Content Include="image\[002151].png" />
+    <Content Include="image\[002205].png" />
+    <Content Include="image\[002801].png" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

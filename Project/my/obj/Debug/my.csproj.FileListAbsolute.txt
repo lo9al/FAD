@@ -1,0 +1,41 @@
+c:\users\user\documents\visual studio 2012\Projects\my\my\bin\Debug\my.exe
+c:\users\user\documents\visual studio 2012\Projects\my\my\bin\Debug\my.pdb
+c:\users\user\documents\visual studio 2012\Projects\my\my\obj\Debug\my.csprojResolveAssemblyReference.cache
+c:\users\user\documents\visual studio 2012\Projects\my\my\obj\Debug\my.control.resources
+c:\users\user\documents\visual studio 2012\Projects\my\my\obj\Debug\my.acount.resources
+c:\users\user\documents\visual studio 2012\Projects\my\my\obj\Debug\my.exchange.resources
+c:\users\user\documents\visual studio 2012\Projects\my\my\obj\Debug\my.report.resources
+c:\users\user\documents\visual studio 2012\Projects\my\my\obj\Debug\my.login.resources
+c:\users\user\documents\visual studio 2012\Projects\my\my\obj\Debug\my.main_form.resources
+c:\users\user\documents\visual studio 2012\Projects\my\my\obj\Debug\my.Properties.Resources.resources
+c:\users\user\documents\visual studio 2012\Projects\my\my\obj\Debug\my.csproj.GenerateResource.Cache
+c:\users\user\documents\visual studio 2012\Projects\my\my\obj\Debug\my.exe
+c:\users\user\documents\visual studio 2012\Projects\my\my\obj\Debug\my.pdb
+C:\Users\Ali\Desktop\aaaaaaaaaaaaaaa\my\my\bin\Debug\my.exe
+C:\Users\Ali\Desktop\aaaaaaaaaaaaaaa\my\my\bin\Debug\my.pdb
+C:\Users\Ali\Desktop\aaaaaaaaaaaaaaa\my\my\obj\Debug\my.csprojAssemblyReference.cache
+C:\Users\Ali\Desktop\aaaaaaaaaaaaaaa\my\my\obj\Debug\my.control.resources
+C:\Users\Ali\Desktop\aaaaaaaaaaaaaaa\my\my\obj\Debug\my.acount.resources
+C:\Users\Ali\Desktop\aaaaaaaaaaaaaaa\my\my\obj\Debug\my.exchange.resources
+C:\Users\Ali\Desktop\aaaaaaaaaaaaaaa\my\my\obj\Debug\my.report.resources
+C:\Users\Ali\Desktop\aaaaaaaaaaaaaaa\my\my\obj\Debug\my.login.resources
+C:\Users\Ali\Desktop\aaaaaaaaaaaaaaa\my\my\obj\Debug\my.main_form.resources
+C:\Users\Ali\Desktop\aaaaaaaaaaaaaaa\my\my\obj\Debug\my.Properties.Resources.resources
+C:\Users\Ali\Desktop\aaaaaaaaaaaaaaa\my\my\obj\Debug\my.csproj.GenerateResource.cache
+C:\Users\Ali\Desktop\aaaaaaaaaaaaaaa\my\my\obj\Debug\my.csproj.CoreCompileInputs.cache
+C:\Users\Ali\Desktop\aaaaaaaaaaaaaaa\my\my\obj\Debug\my.csproj.CopyComplete
+C:\Users\Ali\Desktop\aaaaaaaaaaaaaaa\my\my\obj\Debug\my.exe
+C:\Users\Ali\Desktop\aaaaaaaaaaaaaaa\my\my\obj\Debug\my.pdb
+C:\Users\user\Desktop\my1\my\my\bin\Debug\my.exe
+C:\Users\user\Desktop\my1\my\my\bin\Debug\my.pdb
+C:\Users\user\Desktop\my1\my\my\obj\Debug\my.csprojResolveAssemblyReference.cache
+C:\Users\user\Desktop\my1\my\my\obj\Debug\my.control.resources
+C:\Users\user\Desktop\my1\my\my\obj\Debug\my.acount.resources
+C:\Users\user\Desktop\my1\my\my\obj\Debug\my.exchange.resources
+C:\Users\user\Desktop\my1\my\my\obj\Debug\my.report.resources
+C:\Users\user\Desktop\my1\my\my\obj\Debug\my.login.resources
+C:\Users\user\Desktop\my1\my\my\obj\Debug\my.main_form.resources
+C:\Users\user\Desktop\my1\my\my\obj\Debug\my.Properties.Resources.resources
+C:\Users\user\Desktop\my1\my\my\obj\Debug\my.csproj.GenerateResource.Cache
+C:\Users\user\Desktop\my1\my\my\obj\Debug\my.exe
+C:\Users\user\Desktop\my1\my\my\obj\Debug\my.pdb
